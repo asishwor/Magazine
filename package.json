@@ -1,0 +1,15 @@
+{
+  "name": "magazine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
+}
